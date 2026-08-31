@@ -22,3 +22,7 @@ var expect = function(val) {
         }
     };
 };
+
+// Key note, you cannot declare a function more than once, because javascript will throw an  error.
+// If you exceture more than once, Javascript will reject it because it cannot run something more than once.
+// My error was in declaring: 'toBe(val);' and 'function expect(val){}'
